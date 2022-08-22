@@ -125,6 +125,7 @@ const watcher = () => {
     gulp.watch(path.watch.html, html);
     gulp.watch(path.watch.scss, styles);
     gulp.watch(path.watch.script, scripts);
+    gulp.watch(path.watch.images, copyImages);
 };
 
 // Update UI
