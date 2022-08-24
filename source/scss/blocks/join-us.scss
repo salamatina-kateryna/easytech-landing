@@ -1,0 +1,125 @@
+.join-us {
+    margin-top: 40px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    &__title {
+        color: #c8972c;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        text-transform: uppercase;
+    }
+
+    &__link {
+        color: #ffffff;
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+    &__vacancy-list {
+        margin-top: 19px;
+    }
+
+    &__vacancy-item {
+        padding: 15px 0;
+        border-top: 1px solid #415867;
+    }
+
+    &__top-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__bottom-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-left: 40px;
+    }
+
+    &__vacancy-title {
+        position: relative;
+        width: calc(100% - 80px);
+        margin-left: 40px;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+
+        &::before {
+            display: inline-block;
+            position: absolute;
+            content: attr(data-attr);
+            top: 2px;
+            left: -40px;
+            color: #415867;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+        }
+
+        &::after {
+            display: inline-block;
+            position: absolute;
+            content: "";
+            width: 9px;
+            height: 29px;
+            background-image: url("../../img/slash.svg");
+            top: -9px;
+            left: -20px;
+        }
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        border: none;
+        border-radius: 50%;
+        background-color: #415867;
+
+        &:hover {
+            background-color: #ffffff;
+        }
+    }
+
+    &__middle-wrapper {
+        margin: 13px 0 20px 40px;
+    }
+
+    &__vacancy-text {
+        color: #8095a4;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    &__ellipsis {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 20px;
+        margin-top: 14px;
+    }
+
+    &__dot {
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background-color: #c4c4c4;
+    }
+
+    &__more-link {
+        color: #ffffff;
+        font-size: 13px;
+        line-height: 21px;
+    }
+}

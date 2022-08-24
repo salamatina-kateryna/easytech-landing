@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="vieport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>EasyTech</title>
     <link rel="preload" href="fonts/inter400.woff2" type="font/woff2" as="font" crossorigin="anonymous">
     <link rel="preload" href="fonts/inter500.woff2" type="font/woff2" as="font" crossorigin="anonymous">
@@ -13,11 +13,11 @@
   
   <body>
     
-    <header class="header">
+    <header class="header container">
       <img class="header__logo" src="img/logo.svg" alt="EasyTech-logo" width="137" height="40">
       <h1 class="header__title">Out-Source Tech  Service</h1>
       <p class="header__text">Тo customers worldwide.</p>
-      <button class="header__up;oad-button">Upload your cv</button>
+      <button class="header__upload-button">Upload your cv</button>
     </header>
     
     <main class="main">
@@ -37,32 +37,42 @@
           <ul class="join-us__vacancy-list">
             <li class="join-us__vacancy-item">
               <div class="join-us__top-wrapper">
-                <h3 class="join-us__vacancy-title">Backoffice /Payments Specialist/</h3>
-                <button class="join-us__close-button">
-                  <svg clas="join-us__close-icon" width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="17.5" cy="17.5" r="17.5" transform="rotate(-180 17.5 17.5)" fill="#415867"/>
-                    <path d="M11.3649 11.5811L24 24.2158" stroke="#082030"/>
-                    <path d="M24 11.581L11.3653 24.216" stroke="#082030"/>
-                    </svg>                    
+                <h3 class="join-us__vacancy-title" data-attr="01">Backoffice / Payments Specialist/</h3>
+                <button class="join-us__button hidden">
+                  <svg class="join-us__close-icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.364947 0.581116L13 13.2158" stroke="#082030"/>
+                    <path d="M13 0.580951L0.365323 13.216" stroke="#082030"/>
+                  </svg>                   
                 </button>
               </div>
-              
-              <p class="join-us__vacancy-text">Resolve and research undelivered payments.
-                Manage anti-money laundering (AML) and know your customer (KYC) processes.
-                Communicate with appropriate internal teams, when necessary to resolve open issues or questions.</p>
-              
+
+              <div class="join-us__middle-wrapper hidden">
+                <p class="join-us__vacancy-text">
+                  Resolve and research undelivered payments. 
+                  <br>
+                  <br>
+                  Manage anti-money laundering (AML) and know your customer (KYC) processes. 
+                  <br>
+                  <br>
+                  Communicate with appropriate internal teams, when necessary to resolve open issues or questions.
+                </p>
+                <div class="join-us__ellipsis">
+                  <div class="join-us__dot"></div>
+                  <div class="join-us__dot"></div>
+                  <div class="join-us__dot"></div>
+                </div>
+              </div>
+
               <div class="join-us__bottom-wrapper">
                 <a class="join-us__more-link" href="#">View more</a>
-                <button class="join-us__open-button">
-                  <svg class="join-us__arrow-icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="15" cy="15" r="15" fill="#415867"/>
-                    <g clip-path="url(#clip0_1404_1149)">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20 10L9 21L20 10H9V9H21V21H20V10Z" fill="#082030"/>
-                    <path d="M20 10L9 21V21L20 10H9V9H21V21H20V10Z" stroke="#082030" stroke-width="0.811906"/>
+                <button class="join-us__button">
+                  <svg class="join-us__arrow-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1404_1151)">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11 1L0 12V12L11 1H0V0H12V12H11V1Z" fill="#082030" stroke="#082030" stroke-width="0.811906"/>
                     </g>
                     <defs>
-                    <clipPath id="clip0_1404_1149">
-                    <rect width="12" height="12" fill="white" transform="translate(9 9)"/>
+                    <clipPath id="clip0_1404_1151">
+                    <rect width="12" height="12" fill="white"/>
                     </clipPath>
                     </defs>
                   </svg>
@@ -71,19 +81,17 @@
             </li>
 
             <li class="join-us__vacancy-item">
-              <h3 class="join-us__vacancy-title">Our Experience</h3>
+              <h3 class="join-us__vacancy-title" data-attr="02">Our Experience</h3>
               <div class="join-us__bottom-wrapper">
                 <a class="join-us__more-link" href="#">View more</a>
-                <button class="join-us__open-button">
-                  <svg class="join-us__arrow-icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="15" cy="15" r="15" fill="#415867"/>
-                    <g clip-path="url(#clip0_1404_1149)">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20 10L9 21L20 10H9V9H21V21H20V10Z" fill="#082030"/>
-                    <path d="M20 10L9 21V21L20 10H9V9H21V21H20V10Z" stroke="#082030" stroke-width="0.811906"/>
+                <button class="join-us__button">
+                  <svg class="join-us__arrow-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1404_1151)">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11 1L0 12V12L11 1H0V0H12V12H11V1Z" fill="#082030" stroke="#082030" stroke-width="0.811906"/>
                     </g>
                     <defs>
-                    <clipPath id="clip0_1404_1149">
-                    <rect width="12" height="12" fill="white" transform="translate(9 9)"/>
+                    <clipPath id="clip0_1404_1151">
+                    <rect width="12" height="12" fill="white"/>
                     </clipPath>
                     </defs>
                   </svg>
@@ -92,19 +100,17 @@
             </li>
 
             <li class="join-us__vacancy-item">
-              <h3 class="join-us__vacancy-title">Quality Assurance / Russian-English, Spanish-English/</h3>
+              <h3 class="join-us__vacancy-title" data-attr="03">Quality Assurance / Russian-English, Spanish-English/</h3>
               <div class="join-us__bottom-wrapper">
                 <a class="join-us__more-link" href="#">View more</a>
-                <button class="join-us__open-button">
-                  <svg class="join-us__arrow-icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="15" cy="15" r="15" fill="#415867"/>
-                    <g clip-path="url(#clip0_1404_1149)">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20 10L9 21L20 10H9V9H21V21H20V10Z" fill="#082030"/>
-                    <path d="M20 10L9 21V21L20 10H9V9H21V21H20V10Z" stroke="#082030" stroke-width="0.811906"/>
+                <button class="join-us__button">
+                  <svg class="join-us__arrow-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1404_1151)">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11 1L0 12V12L11 1H0V0H12V12H11V1Z" fill="#082030" stroke="#082030" stroke-width="0.811906"/>
                     </g>
                     <defs>
-                    <clipPath id="clip0_1404_1149">
-                    <rect width="12" height="12" fill="white" transform="translate(9 9)"/>
+                    <clipPath id="clip0_1404_1151">
+                    <rect width="12" height="12" fill="white"/>
                     </clipPath>
                     </defs>
                   </svg>
@@ -151,7 +157,7 @@
         <a class="contact__email" href="mailto: info@easytech.com">info@easytech.com</a>
         <a class="contact__phone" href="tel: 359-02-426-36-48 ">+359 02 426 36 48</a>
 
-        <form class="form">
+        <!-- <form class="form">
           <label for="first-name" class="form__label visually-hidden">First Name</label>
           <input id="first-name" class="form__input" type="text" name="first-name" placeholder="First Name *" required>
 
@@ -168,7 +174,7 @@
           <textarea id="your-message" class="form__input" required></textarea>
 
           <button class="form__button" type="submit">send message</button>
-        </form>
+        </form> -->
       </section>   
     </main>
     

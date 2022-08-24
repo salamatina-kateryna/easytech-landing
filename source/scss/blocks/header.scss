@@ -1,0 +1,46 @@
+.header {
+    min-height: 517px;
+    padding: 20px;
+    background-color: rgba(0, 136, 165, 0.6);
+    background-image: url('../../img/mobile-back-header.png');
+
+    &__logo {
+        display: block;
+        margin: auto;
+    }
+
+    &__title {
+        width: calc(100% - 40px);
+        margin: 60px auto 0;
+        color: #ffffff;
+        font-size: 43px;
+        font-weight: 700;
+        line-height: 52px;
+        text-align: center;
+    }
+
+    &__text {
+        width: calc(100% - 40px);
+        margin: 10px auto 0;
+        color: #ffffff;
+        font-size: 22px;
+        line-height: 21px;
+        text-align: center;
+    }
+
+    &__upload-button {
+        display: block;
+        margin: 75px auto 0;
+        width: 214px;
+        height: 46px;
+        background: rgba(58, 160, 182, 0.5);
+        border: 1px solid #ffffff;
+        border-radius: 35px;
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 46px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+

@@ -1,0 +1,12 @@
+.main {
+    &__wrapper {
+        min-height: 727px;
+        margin-top: -57px;
+        padding: 75px 20px 45px;
+        background-image: 
+            url('../../img/join-us-back.svg'),
+            url('../../img/about-section-back.svg'),
+            linear-gradient(transparent 7%, #082030 7%);
+        background-size: cover;
+    }
+}
