@@ -1,0 +1,50 @@
+.contact {
+    min-height: 745px;
+    padding: 40px 27px;
+    background-color: #f6f6f6;
+
+    &__title {
+        color: #1f2d3a;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+    }
+
+    &__text {
+        margin-top: 20px;
+        color: #8095a4;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    &__divider {
+        width: 42px;
+        height: 1px;
+        margin-top: 30px;
+        border-bottom: 0.5px solid #8095a4;
+    }
+
+    &__address {
+        margin-top: 15px;
+        color: #8095a4;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+    &__email {
+        display: block;
+        margin-top: 13px;
+        color: #082030;
+        font-size: 14px;
+        line-height: 22px;
+        text-decoration: underline;
+    }
+
+    &__phone {
+        display: block;
+        margin-top: 13px;
+        color: #8095a4;
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
