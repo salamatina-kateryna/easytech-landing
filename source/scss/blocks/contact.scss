@@ -1,6 +1,7 @@
 .contact {
     min-height: 745px;
-    padding: 40px 27px;
+    padding-top: 40px;
+    padding-bottom: 38px;
     background-color: #f6f6f6;
 
     &__title {
@@ -11,21 +12,26 @@
     }
 
     &__text {
-        margin-top: 20px;
+        
         color: #8095a4;
         font-size: 14px;
         line-height: 22px;
+
+        &--first-line {
+            margin-top: 18px;
+            margin-bottom: 5px;
+        }
     }
 
     &__divider {
         width: 42px;
         height: 1px;
-        margin-top: 30px;
+        margin-top: 22px;
         border-bottom: 0.5px solid #8095a4;
     }
 
     &__address {
-        margin-top: 15px;
+        margin-top: 8px;
         color: #8095a4;
         font-size: 14px;
         line-height: 22px;
@@ -33,7 +39,7 @@
     
     &__email {
         display: block;
-        margin-top: 13px;
+        margin-top: 6px;
         color: #082030;
         font-size: 14px;
         line-height: 22px;
@@ -42,7 +48,7 @@
 
     &__phone {
         display: block;
-        margin-top: 13px;
+        margin-top: 4px;
         color: #8095a4;
         font-size: 14px;
         line-height: 22px;

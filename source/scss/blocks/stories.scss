@@ -1,13 +1,13 @@
 .stories {
     min-height: 1220px;
-    padding-top: 31px;
+    padding-top: 35px;
     padding-bottom: 26px;
 
     &__wrapper {
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
-        padding-bottom: 8px;
+        padding-bottom: 9px;
         border-bottom: 0.5px solid #dcbe7B;;
     }
 
@@ -26,8 +26,8 @@
             content: "";
             width: 24px;
             height: 28px;
-            top: 8px;
-            left: -30px;
+            top: 4px;
+            left: -34px;
             background-image: url('../../img/stories-icon.svg');
         }
     }
@@ -50,7 +50,7 @@
         flex-direction: column;
         justify-content: end;
         min-height: 303px;
-        padding: 35px 30px;
+        padding: 35px 40px 35px 30px;
         background-color: #082030;
 
         &--first-story {
