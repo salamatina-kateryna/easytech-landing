@@ -49,9 +49,9 @@
         width: calc(100% - 90px);
         margin-left: 40px;
         color: #ffffff;
-        font-size: 22px;
+        font-style: 18px;
         font-weight: 400;
-        line-height: 28px;
+        line-height: 24px;
 
         &::before {
             display: inline-block;
@@ -146,6 +146,7 @@
     
         &__vacancy-title {
             margin-left: 65px;
+            font-size: 22px;
             line-height: 26px;
     
             &::before {
