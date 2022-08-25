@@ -22,7 +22,7 @@
     }
 
     &__vacancy-list {
-        margin-top: 19px;
+        margin-top: 18px;
     }
 
     &__vacancy-item {
@@ -33,7 +33,7 @@
     &__top-wrapper {
         display: flex;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
     }
 
     &__bottom-wrapper {
@@ -49,9 +49,9 @@
         width: calc(100% - 90px);
         margin-left: 40px;
         color: #ffffff;
-        font-size: 18px;
+        font-size: 22px;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 28px;
 
         &::before {
             display: inline-block;
@@ -122,5 +122,59 @@
         color: #ffffff;
         font-size: 12px;
         line-height: 21px;
+    }
+}
+
+@media (min-width: 1250px) {
+    .join-us {
+        width: 419px;
+        margin: 0;
+    
+        &__vacancy-item {
+            padding: 22px 0 16px;
+        }
+
+        &__top-wrapper {
+            align-items: flex-start;
+        }
+    
+        &__bottom-wrapper {
+            align-items: flex-end;
+            margin-top: 0;
+            margin-left: 65px;
+        }
+    
+        &__vacancy-title {
+            margin-left: 65px;
+            line-height: 26px;
+    
+            &::before {
+                left: -60px;
+                font-size: 20px;
+                line-height: 24px;
+            }
+    
+            &::after {
+                width: 11px;
+                height: 35px;
+                left: -33px;
+                background-image: url("../../img/slash-desktop.svg");
+            }
+        }
+    
+        &__button {
+            width: 35px;
+            height: 35px;
+        }
+    
+        &__middle-wrapper {
+            margin: 0 0 20px 65px;
+        }
+    
+        &__vacancy-text {
+            width: 340px;
+            margin-top: 15px;
+            line-height: 22px;
+        }
     }
 }

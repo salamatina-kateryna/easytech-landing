@@ -7,3 +7,15 @@
         margin: auto;
     }
 }
+
+@media (min-width: 1250px) {
+    .width-wrapper {
+        max-width: 1170px;
+        margin: auto;
+    
+        &--stories {
+            max-width: 1170;
+            margin: auto;
+        }
+    }
+}

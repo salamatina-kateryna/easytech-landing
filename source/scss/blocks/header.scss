@@ -1,6 +1,7 @@
 .header {
     min-height: 517px;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: rgba(0, 136, 165, 0.6);
     background-image: url('../../img/mobile-back-header.png');
 
@@ -15,7 +16,7 @@
     }
 
     &__title {
-        width: calc(100% - 20px);
+        width: 260px;
         margin: 55px auto 0;
         color: #ffffff;
         font-size: 43px;
@@ -47,6 +48,39 @@
         line-height: 46px;
         text-align: center;
         text-transform: uppercase;
+    }
+}
+
+@media (min-width: 1250px) {
+    .header {
+        min-height: 454px;
+        padding-top: 31px;
+        padding-bottom: 30px;
+        background-image: url('../../img/desktop-back-header.png');
+    
+        &__link-to-main {
+            margin: 0;
+        }
+    
+        &__title {
+            width: 602px;
+            margin: 55px 0 0;
+            font-size: 80px;
+            line-height: 80px;
+            text-align: left;
+        }
+    
+        &__text {
+            width: auto;
+            margin: 21px 0 0;
+            font-size: 28px;
+            line-height: 28px;
+            text-align: left;
+        }
+    
+        &__upload-button {
+            margin: 42px 0 0;
+        }
     }
 }
 

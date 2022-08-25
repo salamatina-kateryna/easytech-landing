@@ -41,3 +41,39 @@
         text-transform: uppercase;
     }
 }
+
+@media (min-width: 1250px) {
+    .footer {
+        min-height: 34px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+
+        &__wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        &__text {
+            max-width: fit-content;
+            margin: 0;
+            padding-left: 50px;
+            font-size: 22px;
+            line-height: 35px;
+    
+            &::before {
+                width: 40px;
+                height: 40px;
+                top: -3px;
+                background-image: url("../../img//footer-icon-desktop.svg");
+            }
+        }
+    
+        &__button {
+            height: 35px;
+            margin: 0;
+            margin-left: 10px;
+            line-height: 35px;
+        }
+    }
+}

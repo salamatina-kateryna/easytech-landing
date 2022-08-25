@@ -12,7 +12,6 @@
     }
 
     &__text {
-        
         color: #8095a4;
         font-size: 14px;
         line-height: 22px;
@@ -52,5 +51,48 @@
         color: #8095a4;
         font-size: 14px;
         line-height: 22px;
+    }
+}
+
+@media (min-width: 1250px) {
+    .contact {
+        min-height: 222px;
+        padding-top: 45px;
+        padding-bottom: 36px;
+
+        &__wrapper {
+            display: flex;
+            gap: 158px;
+        }
+
+        &__flex-wrapper {
+            width: 468px;
+        }
+    
+        &__title {
+            font-size: 32px;
+            line-height: 48px;
+        }
+    
+        &__text {
+            &--first-line {
+                margin-top: 20px;
+            }
+        }
+    
+        &__divider {
+            margin-top: 24px;
+        }
+        
+        &__email {
+            display: inline-block;
+            margin-top: 4px;
+        }
+    
+        &__phone {
+            display: inline-block;
+            margin-top: 4px;
+            margin-left: 14px;
+        }
     }
 }

@@ -13,3 +13,26 @@
         background-position: 0% 59%;
     }
 }
+
+@media (min-width: 1250px) {
+    .main {
+        &__wrapper {
+            min-height: 409px;
+            margin-top: -115px;
+            padding-top: 85px;
+            padding-bottom: 31px;
+            background-image: 
+                url('../../img/join-us-back-desktop.svg'),
+                url('../../img/about-section-back-desktop.svg'),
+                linear-gradient(transparent 25%, #082030 25%);
+            background-size: auto, cover;
+            background-repeat: no-repeat;
+            background-position: 35% 67%;
+        }
+
+        &__second-wrapper {
+            display: flex;
+            gap: 153px;
+        }
+    }
+}
