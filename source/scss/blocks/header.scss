@@ -4,9 +4,14 @@
     background-color: rgba(0, 136, 165, 0.6);
     background-image: url('../../img/mobile-back-header.png');
 
-    &__logo {
+    &__link-to-main {
         display: block;
         margin: auto;
+        width: fit-content;
+    }
+
+    &__logo {
+        display: block;
     }
 
     &__title {

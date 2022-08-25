@@ -1,0 +1,9 @@
+.width-wrapper {
+    max-width: 560px;
+    margin: auto;
+
+    &--stories {
+        max-width: 280px;
+        margin: auto;
+    }
+}
